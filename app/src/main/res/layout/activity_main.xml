@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimg"
+    android:backgroundTintMode="multiply"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Contact Section -->
+
+    <RelativeLayout
+        android:id="@+id/contactSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconContact"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="59dp"
+            android:src="@drawable/contact"/>
+
+        <Button
+            android:id="@+id/btnCallPolice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iconContact"
+            android:layout_centerHorizontal="true"
+            android:text="Call Police"
+            android:textColor="#FF0000"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnCallAmbulance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnCallPolice"
+            android:layout_centerHorizontal="true"
+            android:text="Call Ambulance"
+            android:textColor="#FF0000"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+
+    <!-- Women Laws Section -->
+    <RelativeLayout
+        android:id="@+id/womenlaws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp">
+
+        <!-- ImageView for Women Laws -->
+
+        <!-- Buttons below Women Laws Image -->
+
+        <ImageView
+            android:id="@+id/womenLawsImageView"
+            android:layout_width="173dp"
+            android:layout_height="440dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="-130dp"
+            android:contentDescription="Women Laws Image"
+            android:src="@drawable/laws" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/womenLawsImageView"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="175dp"
+                android:layout_weight="1"
+                android:background="@drawable/elipse"
+                android:text="ERA-1976"
+                android:textColor="#FF0000"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="175dp"
+                android:layout_weight="1"
+                android:background="@drawable/elipse"
+                android:text="DPA-1961"
+                android:textColor="#FF0000"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
