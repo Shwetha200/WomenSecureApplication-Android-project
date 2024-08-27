@@ -1,6 +1,4 @@
 # WomenSecureApplication-Android-project
  
  
-![s34](https://github.com/user-attachments/assets/bf139840-cd6e-47e6-a0a7-b31eb2d71656)
-![s36](https://github.com/user-attachments/assets/1bf50824-adba-41f0-bd5d-b929426cd6ff)
-![s35](https://github.com/user-attachments/assets/7d7f7e6d-784f-4dc8-9e07-fd3747f1563f)
+
